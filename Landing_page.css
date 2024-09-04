@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+/*navbar*/
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar_icon{
+    
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    color: inherit;
+}
+.twitter{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+.instagram{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+.facebook{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+.youtube{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    
+}
+.app{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+}
+
+.linkdin{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+/*number and email*/
+.mo_number{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    font-size: medium;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+}
+
+.number{
+    display: flex;
+    height: 30px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+    height: 30px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.request{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.contact{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border2{
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+/*header*/
+.header{
+    height: 70px;
+    width: 100%;
+    background: whitesmoke;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+/* Landing logo and title*/
+.logo{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo i{
+   font-size: 30px;
+   margin-right: 20px;
+   font-weight: 700;
+}
+
+.title{
+    height: 100%;
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+/*menu*/
+.menu{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.menu p{
+    height: 60px;
+    font-weight: 600;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu select{
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+select{
+    background-color: transparent;
+    border: transparent;
+    font-size: medium;
+    font-family: arial;
+    color: black;
+    font-weight: 600;
+}
+
+option{
+    background-color: transparent;
+    border: transparent;
+    font-size: medium;
+    font-family: arial;
+    
+}
+
+.border3{
+    border: 2px solid transparent;
+}
+
+.border3:hover{
+    border: 1px solid transparent;
+    background-color: orange;
+}
+
+.search{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_icon{
+    height: 100%;
+    width: 100%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    border: transparent;
+    background-color: transparent;
+    color: blackk;
+    font-size: large;
+}
+
+/*description photo*/
+
+.description{
+    height: 550px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.description img{
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.desc_text{
+    height: 200px;
+    width: 800px;
+    position: absolute;
+    padding: 250px 150px 150px 200px;  
+}
+/* .text1{
+    font-size: 25px;
+    color: white;
+    font-family: serif;
+} */
+
+.text2{
+    font-size: 35px;
+    color: whitesmoke;
+    font-family: serif;
+}
+
+.text3{
+    font-size: 22px;
+    color: white;
+    font-family: serif;
+}
+.radio{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 275px;
+    right: 200px;
+    accent-color: blue;
+}
+.read{
+    height: 40px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.red_border{
+        height: 30px;
+        width: 90px;
+        border: 2px solid white;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.req_border{
+    height: 30px;
+    width: 133px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+/*4 box*/
+
+.information{
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+.lunch{
+    height: 250px;
+    width: 275px;
+    font-size: large;
+    text-align: justify;
+    word-spacing: normal;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: serif;
+    color: white;
+}
+
+.online{
+    height: 250px;
+    width: 300px;
+    font-size: large;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: serif;
+    color: white;
+    text-align: justify;
+}
+
+.time{
+    height: 250px;
+    width: 275px;
+    margin-bottom: 50px;
+    font-size: large;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: serif;
+    color: white;
+     text-align: justify;
+}
+
+.img_border i{
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.img_border p{
+    margin-left: 10px;
+}
+
+.img_border_text{
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+
+/*About Us*/
+
+.about_us{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.about_us img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 25%;
+}
+
+.about_us span{
+    color: blue;
+    font-weight: 600;
+    
+}
+
+.about_text{
+    height: 450px;
+    width: 30%;
+    text-align: justify;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    padding-right: 50px;
+    
+}
+
+.about_text1{
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 5px;
+    border-bottom: 3px solid rgb(255, 132, 153);
+    padding-bottom: 5px; 
+    display: inline;
+}
+
+.about_text2{
+    font-family: serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.about_text3{
+    font-family: serif;
+    font-size: 1rem;
+    line-height: auto;
+}
+
+.about_text3 span{
+    font-size: small;
+}
+
+.about_border{
+    margin-left: 10px;
+    height: 30px;
+    width: 90px;
+    margin-top: 25px;
+    border: 0px solid white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.about_image{
+    height: 450px;
+    width: 25%;
+    position: absolute;
+    right: 25%;
+    top: 10%;
+}
+
+.about_image img{
+    mix-blend-mode: multiply;
+    height: 400px;
+    background-size: cover;
+    opacity: 100%;
+}
+
+/*Our Services*/
+.services{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.services img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.services_img{
+    opacity: 25%;
+}
+
+.service_name{
+    height: 50px;
+    width: 200px;
+    font-weight: 600;
+    position: absolute;
+    left: 250px;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid rgb(255, 132, 153);
+    padding-bottom: 5px; 
+}
+
+.service_name P{
+    font-family: serif;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.services i{
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    color: white;
+}
+
+.services p{
+    margin-left: 10px;
+    font-family: serif;
+    color: black;
+}
+
+.user_image{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    left: 250px;
+    top: 35%;
+    z-index: 0;
+}
+
+.user_image img{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+}
+
+.user_text{
+    height: 50px;
+    width: 200px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 69%;
+    left: 300px;
+    z-index: 1;
+}
+
+.creative_image{
+    height: 200px;
+    width: 250px;
+    top: 35%;
+    left: 550px;
+    position: absolute;
+    z-index: 0;
+}
+
+.creative_image img{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+}
+
+.creative_text{
+    height: 50px;
+    width: 230px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 69%;
+    left: 570px;
+    z-index: 1;
+}
+
+.retina_image{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    left: 850px;
+    top: 35%;
+    z-index: 0;
+}
+
+.retina_image img{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+}
+
+.retina_text{
+    height: 50px;
+    width: 200px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 69%;
+    left: 900px;
+    z-index: 1;
+}
+
